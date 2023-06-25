@@ -1,0 +1,115 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #efeff7;
+    border-color: #7284ff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+.titled{
+    font-family: 'Telegraf',serif;
+    color: #7284ff;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.search{
+    min-height: 28px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: #7284ff;
+    padding: 10px 25px;
+    height : 15px;
+    border-radius: 30px;
+    margin-top: 8px;
+    flex: 1;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius:50%;
+    width :35px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 0%;
+}
+.search button img{
+    width: 16px;
+    margin-left: 0;
+}
+.weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bg img{
+    min-height: 400px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 80px;
+}
+.type{
+    width:30%;
+    background: linear-gradient(135deg,#c59bdd,#edd7ea);
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 80px;
+    height: 330px;
+    text-align: center;
+}
+.wicon{
+    margin-top: -10px;
+    height: 90px;
+    width : 90px;
+    margin:0;
+
+}
+.type temp{
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.type city{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top : -10px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    margin-top: -15px;
+    height: 50px;
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    margin-top: -6px;
+    font-size: 18px;
+    font-weight: 400;
+}
